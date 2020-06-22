@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form {
+  margin-top: 20%;
+}
+
+.form input {
+  font-size: 16px;
+  padding: 0.3em;
+}
+
+.form input[type=text] {
+  border-bottom: 0 0 2px 0 solid #6b5bff;
+}
+
+.form input[type=submit] {
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  letter-spacing: 0.11em;
+  padding: 0.8em 2em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  color: #333333;
+  background-color: #513dff91;
+}
+
+ul li input {
+  margin-left: 0.5em;
+  margin-right: 1em;
+}
+
+.check {
+  text-decoration: line-through;
+}
+
+.sample {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
